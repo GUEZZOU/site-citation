@@ -1,3 +1,5 @@
+@use'vars';
 @use 'reset-css';
 
 @use 'global.scss';
+@use './components/header';
