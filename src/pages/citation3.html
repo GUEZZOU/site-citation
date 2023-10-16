@@ -13,7 +13,8 @@
   <script type="module" defer src="../js/app.js"></script>
 </head>
 <body>
-  <header class="banner">
+  <div class="contenaire">
+    <header class="banner">
     <a href="../index.html"> <h1 class="banner__logo">TopiQuote</h1></a>
     <nav class="menu">
       <ul class="menu__mavigation">
@@ -25,13 +26,17 @@
         <li><a href="./citation6.html">Citation#6</a></li>
       </ul>
     </nav>
-  </header>
-  <section>
-    <h2>Citation #2</h2>
-    <q>
-      Fais de ta vie un rêve, et d'un rêve, une réalité. Antoine de Saint-Exupéry
-    </q>
-    <a href="./citation4.html">Citation suivente</a>
+    </header>
+    <main class="main-page">
+      <section class="segment">
+        <h2 class="segment__title">Citation #3</h2>
+        <p class="segment__desc">
+          Fais de ta vie un rêve, et d'un rêve, une réalité. <br>
+        <span class="segment__desc--span"> —Antoine de Saint-Exupéry</span>
+        </p>
+    <a class="segment__lien" href="./citation4.html">Citation suivente</a>
   </section>
+    </main>
+  </div>
 </body>
 </html>

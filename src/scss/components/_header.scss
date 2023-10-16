@@ -1,6 +1,18 @@
+@use '../vars';
 .banner{
-  margin: 1rem;
+  padding: 1.5rem;
+  background-image: vars.$gradient;
  &__logo{
-    font-size: 2rem;
+  margin-bottom: 5rem;
+  color: vars.$color-action;
+  font-size: 2rem;
   }
+}
+.menu{
+  &__mavigation li, a{
+  color:vars.$color-quote;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid vars.$color-quote;
+}
 }

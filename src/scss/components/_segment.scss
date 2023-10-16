@@ -1,0 +1,33 @@
+@use '../vars';
+.segment{
+  background-image: vars.$gradient;
+  width: 50%;
+  height: fit-content;
+  padding: 3rem;
+  display: block;
+  margin: 10rem auto;
+  color: vars.$color-text;
+  &__desc{
+    font-size: 2rem;
+  }
+  &__desc--span{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: end;
+  color: vars.$color-action;
+  font-size: 1rem;
+  }
+  &__lien{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    color: vars.$color-text;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .20);
+  }
+  &__lien:hover{
+    background-color: rgba(241, 141, 252, 0.2);
+  }
+}
